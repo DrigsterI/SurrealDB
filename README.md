@@ -12,12 +12,12 @@ SurrealDB is open-source __NewSQL__ database suitable for any type of applicatio
 - Serverless
 - Embeded
 - Graph
-- _Realtime_
+- Realtime
 - _Multi-tenant_
 - _Acid_
 
 SurrealDB is built with Rust language and was created by [Tobie Morgan Hitchcock](https://www.linkedin.com/in/tobiemorganhitchcock/) and 
-[Jaime Morgan Hitchcock](https://www.linkedin.com/in/jaimemorganhitchcock/). It uses its own SQL like language named SurrealQL. By default it is scemaless 
+[Jaime Morgan Hitchcock](https://www.linkedin.com/in/jaimemorganhitchcock/). It uses its own SQL like language named [SurrealQL](https://surrealdb.com/docs/surrealql). By default it is scemaless 
 but can be scemafull. In SurrealDB its really easy to create links between tables and it has event system that trigers when data is changed.
 
 ## Instalation
