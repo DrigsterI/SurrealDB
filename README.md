@@ -21,7 +21,7 @@ SurrealDB is built with Rust language and was created by ![Tobie Morgan Hitchcoc
 but can be scemafull. In SurrealDB its really easy to create links between tables and it has event system that trigers when data is changed.
 
 ## Instalation
-### Windows
+Windows
 PowerShell
 ```shell
 iwr https://windows.surrealdb.com -useb | iex
@@ -30,15 +30,15 @@ iwr https://windows.surrealdb.com -useb | iex
 ```shell
 choco install surreal --pre
 ```
-### Linux
+Linux
 ```shell
 curl -sSf https://install.surrealdb.com | sh
 ```
-### MacOS
+MacOS
 ```shell
 brew install surrealdb/tap/surreal
 ```
-### Docker
+Docker
 ```shell
 docker run --rm -p 8000:8000 surrealdb/surrealdb:latest start
 ```
