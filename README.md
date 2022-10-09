@@ -1,4 +1,4 @@
-# ![SurrealDB](https://surrealdb.com/)
+# [SurrealDB](https://surrealdb.com/)
 SurrealDB is open-source __NewSQL__ database suitable for any type of application.
 #### Features:
 - Data change events
@@ -16,8 +16,8 @@ SurrealDB is open-source __NewSQL__ database suitable for any type of applicatio
 - _Multi-tenant_
 - _Acid_
 
-SurrealDB is built with Rust language and was created by ![Tobie Morgan Hitchcock](https://www.linkedin.com/in/tobiemorganhitchcock/) and 
-![Jaime Morgan Hitchcock](https://www.linkedin.com/in/jaimemorganhitchcock/). It uses its own SQL like language named SurrealQL. By default it is scemaless 
+SurrealDB is built with Rust language and was created by [Tobie Morgan Hitchcock](https://www.linkedin.com/in/tobiemorganhitchcock/) and 
+[Jaime Morgan Hitchcock](https://www.linkedin.com/in/jaimemorganhitchcock/). It uses its own SQL like language named SurrealQL. By default it is scemaless 
 but can be scemafull. In SurrealDB its really easy to create links between tables and it has event system that trigers when data is changed.
 
 ## Instalation
@@ -26,7 +26,7 @@ PowerShell
 ```shell
 iwr https://windows.surrealdb.com -useb | iex
 ```
-![Chocolatey](https://community.chocolatey.org/packages/surreal)
+[Chocolatey](https://community.chocolatey.org/packages/surreal)
 ```shell
 choco install surreal --pre
 ```
@@ -43,8 +43,8 @@ Docker
 docker run --rm -p 8000:8000 surrealdb/surrealdb:latest start
 ```
 ## Setup
-You can use SurrealDB in console or use one ![libraries](https://surrealdb.com/docs/integration/libraries).  
-I am going to use RestAPI and VSCode ![Thunder client](https://www.thunderclient.com/) extention.
+You can use SurrealDB in console or use one [libraries](https://surrealdb.com/docs/integration/libraries).  
+I am going to use RestAPI and VSCode [Thunder client](https://www.thunderclient.com/) extention.
 
 #### First of all we need to start our db 
 ```shell
@@ -102,6 +102,6 @@ SELECT best_friend.jobs.salary FROM human:kevin;
 
 That were some thing that SurrealDB can do. But there is much more. For example __relations__, __events__, __transactions__ and more.  
 Here are some resources:
-- ![Official DOCS](https://surrealdb.com/docs)
-- ![Fast video tutorial](https://www.youtube.com/watch?v=LCAIkx1p1k0)
-- ![_Bigger tutorial_](https://www.youtube.com/watch?v=D41jb4DDIdA)
+- [Official DOCS](https://surrealdb.com/docs)
+- [Fast video tutorial](https://www.youtube.com/watch?v=LCAIkx1p1k0)
+- [_Bigger tutorial_](https://www.youtube.com/watch?v=D41jb4DDIdA)
