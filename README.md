@@ -1,5 +1,5 @@
 # [SurrealDB](https://surrealdb.com/)
-SurrealDB is open-source __NewSQL__ database suitable for any type of application.
+SurrealDB is open-source __NewSQL__ database released in july 2022. It is suitable for any type of application and has many features.
 #### Features:
 - Data change events
 - Permissions
