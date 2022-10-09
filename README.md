@@ -11,8 +11,8 @@ SurrealDB is open-source __NewSQL__ database suitable for any type of applicatio
 - Scalable
 - Serverless
 - Embeded
-- Graph
 - Realtime
+- ***Graph***
 - ***Multi-tenant***
 - ***Acid***
 
