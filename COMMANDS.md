@@ -32,15 +32,20 @@ UPDATE human:brian SET jobs = ['job:developer', 'job:designer'];
 ```sql
 SELECT best_friend.jobs.salary FROM human:kevin;
 ```
-#### CREATE
+#### TRANSACTIONS
+```sql
+CREATE account:one SET balance = 1356;
+CREATE account:two SET balance = 156;
+```
 ```sql
 BEGIN TRANSACTION;
--- Setup accounts
-CREATE account:one SET balance = 135,605.16;
-CREATE account:two SET balance = 91,031.31;
--- Move money
-UPDATE account:one SET balance += 300.00;
-UPDATE account:two SET balance -= 300.00;
--- Finalise
+UPDATE account:one SET balance -= 300.00;
+UPDATE account:two SET balance += 300.00;
 COMMIT TRANSACTION;
+```
+```sql
+BEGIN TRANSACTION;
+UPDATE account:one SET balance += 1000000;
+UPDATE account:two SET balance -= 1000000;
+CANCEL TRANSACTION;
 ```
