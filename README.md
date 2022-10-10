@@ -100,7 +100,7 @@ Now we can easily get all salaries of kevins best friend
 SELECT best_friend.jobs.salary FROM human:kevin;
 ```
 
-That were some thing that SurrealDB can do. But there is much more. For example __relations__, __events__, __transactions__ and more.  
+That were some thing that SurrealDB can do. But there is much more. For example __events__, __transactions__ and more.  
 Here are some resources:
 - [Official DOCS](https://surrealdb.com/docs)
 - [Fast video tutorial](https://www.youtube.com/watch?v=LCAIkx1p1k0)
